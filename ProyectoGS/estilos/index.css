@@ -1,0 +1,93 @@
+/* Estilos para la barra superior */
+.navbar {
+  background-color: white;
+  color: black;
+  height: 60px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-menu .nav-link {
+  color: black;
+}
+
+.icon-circle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #007bff; /* Cambia este color según tus preferencias */
+  text-align: center;
+  line-height: 30px; /* Alinea verticalmente el icono */
+}
+.icon-circle i {
+  color: white; /* Color del icono */
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1;
+}
+
+/* Estilos para el contenido principal */
+.content {
+  height: 80%;
+}
+
+/* Estilos para la caja lateral (20%) */
+.sidebar {
+  height: 100%;
+}
+
+/* Estilos para el contenido principal (80%) */
+.main-content {
+  height: 100%;
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #343a40;
+  color: white;
+  height: 50px;
+}
+
+/* Media query para pantallas grandes */
+@media (min-width: 992px) {
+  .content {
+    height: 70%; /* Ajuste para contenido principal en pantallas grandes */
+  }
+
+  .sidebar {
+    width: 20%; /* Ajuste para caja lateral en pantallas grandes */
+  }
+
+  .main-content {
+    width: 80%; /* Ajuste para contenido principal en pantallas grandes */
+  }
+}
+
+.card-custom {
+  border: none;
+  transition: all 0.3s;
+}
+
+.card-custom:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-custom .card-body {
+  padding: 20px;
+}
+
+.card-custom .card-title {
+  font-size: 24px;
+  font-weight: bold;
+}

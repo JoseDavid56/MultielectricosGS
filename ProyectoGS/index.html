@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Inicio de Sesión</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .bg-image {
+      background-image: url('imagenes/background.jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .form-container {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+<div class="bg-image">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6 offset-md-3">
+                <div class="form-container">
+                    <h2 class="text-center mb-4" style="font-family: 'Arial', sans-serif;">Iniciar Sesión</h2> 
+                    
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputUser">Usuario</label> 
+                            <input type="text" class="form-control form-control-lg" id="exampleInputUser" placeholder="Ingresa tu usuario"> 
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Contraseña</label>
+                            <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Contraseña">
+                        </div>
+                        <a href="vista/home.html" class="btn btn-primary btn-block btn-lg" role="button">Iniciar sesión</a>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
