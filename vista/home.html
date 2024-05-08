@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multielectricos GS</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../estilos/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row navbar navbar-expand-md">
+      <div class="col-md-6">
+        <img src="../imagenes/MultielectricosGS.png" alt="Logo de la empresa" style="max-height: 30px;">
+        <a href="">Multielectricos GS S.A.S</a>
+      </div>
+      <div class="col-md-6 text-right">
+        <span class="icon-circle"><i class="fa fa-user"></i></span>
+        <span class="mr-2">Jose David</span>
+      </div>
+    </div>
+    
+    <div class="row content nav-menu">
+        <div class="col-md-2 sidebar">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light flex-column">
+            <button class="navbar-toggler mb-3" type="button" data-toggle="collapse" data-target="#sidebarNav" aria-controls="sidebarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="sidebarNav">
+              <ul class="navbar-nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">
+                    <i class="fas fa-home"></i> Inicio
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" data-toggle="collapse" data-target="#registroSubMenu" aria-expanded="false" aria-controls="registroSubMenu">
+                    <i class="fas fa-address-book"></i> Registro <span class="dropdown-toggle"></span>
+                  </a>
+                  <div class="collapse" id="registroSubMenu">
+                    <ul class="list-unstyled ml-3">
+                      <li><a class="nav-link" href="clientes.html"><i class="fas fa-user"></i> Clientes</a></li>
+                      <li><a class="nav-link" href="proveedores.html"><i class="fas fa-truck"></i> Proveedores</a></li>
+                      <li><a class="nav-link" href="trabajadores.html"><i class="fas fa-hard-hat"></i> Trabajadores</a></li>
+                      <li><a class="nav-link" href="productos.html"><i class="fas fa-box"></i> Productos</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" data-toggle="collapse" data-target="#operacionesSubMenu" aria-expanded="false" aria-controls="operacionesSubMenu">
+                    <i class="fas fa-tasks"></i> Operaciones <span class="dropdown-toggle"></span>
+                  </a>
+                  <div class="collapse" id="operacionesSubMenu">
+                    <ul class="list-unstyled ml-3">
+                      <li><a class="nav-link" href="cotizacion.html"><i class="fas fa-file-alt"></i> Cotizaciones</a></li>
+                      <li><a class="nav-link" href="proforma.html"><i class="fas fa-file-invoice"></i> Facturas</a></li>
+                      <li><a class="nav-link" href="inventario.html"><i class="fas fa-boxes"></i> Inventario</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fas fa-chart-bar"></i> Reportes <span class="dropdown-toggle"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      
+        <div class="col-md-10 main-content">
+          <div class="row justify-content-center mt-4"> <!-- Espaciado entre la línea superior e inferior -->
+            <div class="col-md-4">
+              <a href="clientes.html" class="card-link">
+                <div class="card text-center mb-4 card-custom bg-primary text-white">
+                  <div class="card-body">
+                    <i class="fas fa-user fa-4x mb-3"></i> <!-- Icono más grande -->
+                    <h5 class="card-title">Clientes</h5> <!-- Texto centrado -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="proveedores.html" class="card-link">
+                <div class="card text-center mb-4 card-custom bg-success text-white">
+                  <div class="card-body">
+                    <i class="fas fa-truck fa-4x mb-3"></i>
+                    <h5 class="card-title">Proveedores</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="productos.html" class="card-link">
+                <div class="card text-center mb-4 card-custom bg-danger text-white">
+                  <div class="card-body">
+                    <i class="fas fa-box fa-4x mb-3"></i>
+                    <h5 class="card-title">Productos</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="cotizacion.html" class="card-link">
+                <div class="card text-center mb-4 card-custom bg-warning text-white">
+                  <div class="card-body">
+                    <i class="fas fa-file-alt fa-4x mb-3"></i>
+                    <h5 class="card-title">Cotizaciones</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="proforma.html" class="card-link">
+                <div class="card text-center mb-4 card-custom bg-info text-white">
+                  <div class="card-body">
+                    <i class="fas fa-file-invoice fa-4x mb-3"></i>
+                    <h5 class="card-title">Facturas</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+                <a href="inventario.html" class="card-link">
+                  <div class="card text-center mb-4 card-custom bg-success text-white">
+                    <div class="card-body">
+                      <i class="fas fa-file-invoice fa-4x mb-3"></i>
+                      <h5 class="card-title">Inventario</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+      
+    
+    
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
